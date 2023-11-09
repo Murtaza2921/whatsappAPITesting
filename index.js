@@ -54,7 +54,7 @@ console.log("post request");
                console.log("boady param "+msg_body);
 
           axios.post(
-              "https://jsonplaceholder.typicode.com/todos" example
+              "https://jsonplaceholder.typicode.com/todos" place your API here
               {
                 question: msg_body, // Use the user's message as the question
                 CookiesId: "your_cookies_id", // Provide the appropriate CookiesId
